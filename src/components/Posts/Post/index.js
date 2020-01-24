@@ -1,9 +1,15 @@
 import React from 'react'
+import User from '../../Users/User'
 
 const Post = ({ src, alt }) => {
     return (
         <div className="post">
-            Post
+            <User
+                src='https://www.meme-arsenal.com/memes/82978a56d445cc3f46d122c539055a24.jpg'
+                alt='User'
+                name='John Snow'
+                min
+            />
             <img src={src} alt={alt}></img>
             <div className="post__name">
                 some acc
